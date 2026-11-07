@@ -1,15 +1,12 @@
-# Build directories
 build/
 **/build/
 cmake-build-*/
 
-# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 
-# Compiled binaries and objects
 *.o
 *.obj
 *.exe
@@ -18,7 +15,6 @@ Makefile
 *.so
 *.a
 
-# IDE / Editor folders
 .vscode/
 .idea/
 *.swp

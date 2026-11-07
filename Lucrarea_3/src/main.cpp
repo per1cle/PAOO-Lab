@@ -52,7 +52,7 @@ int main(){
 
     //3. Initializarea membrilor din constructor
     Neinitializat sn1;
-    std::cout << "  [Neinitializat] Varsta: " << sn1.varsta;    // garbage value de pe stiva
+    std::cout << "  [Neinitializat] Varsta: " << sn1.varsta << "\n";    // garbage value de pe stiva
 
     //4. Eliberarea heap-ului în cadrul destructorului 
     {   
