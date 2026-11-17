@@ -118,7 +118,7 @@ int main() {
     std::string owner2 = "Biblioteca Facultatii";
     RefConstBook rcb1(1, owner1);
     RefConstBook rcb2(2, owner2);
-    //rcb2 = rcb1;   //aici avem eroare
+    // rcb2 = rcb1;   //aici avem eroare
 
     // atunci definim noi copy constructor si operator=
     Book b2 = b1;                // apeleaza Copy Constructor-ul din Book
